@@ -1,0 +1,151 @@
+Patient_ID,Age_Range,Gleason_Score,Treatment_Type,PSA_Baseline,PSA_6_Months,Recurrence_Flag,Time_to_Recurrence_Months,Urinary_Incontinence,Erectile_Dysfunction,Urinary_Score,ED_Score,Recurrence_Flag_Binary,Gleason_Numeric
+PT1000,50-59,7 (3+4),RALP,11.87,1.72,Yes,53.0,None,Mild,0,1,1,7
+PT1001,50-59,7 (4+3),Photon Radiation,23.97,11.24,No,26.0,Mild,Severe,1,2,0,7
+PT1002,70-79,7 (3+4),ADT,19.37,1.16,Yes,52.0,Mild,Severe,1,2,1,7
+PT1003,60-69,7 (3+4),Proton Radiation,16.57,7.43,No,28.0,None,None,0,0,0,7
+PT1004,60-69,7 (3+4),RALP,7.28,0.71,No,19.0,Mild,None,1,0,0,7
+PT1005,50-59,6,Proton Radiation,7.28,1.1,No,55.0,Mild,None,1,0,0,6
+PT1006,60-69,6,RALP,5.22,0.78,Yes,13.0,None,Mild,0,1,1,6
+PT1007,60-69,6,Photon Radiation,22.19,13.35,No,15.0,None,None,0,0,0,6
+PT1008,70-79,7 (4+3),RALP,16.62,11.37,No,27.0,None,Mild,0,1,0,7
+PT1009,70-79,9-10,ADT,18.87,10.3,Yes,19.0,Mild,Mild,1,1,1,9
+PT1010,70-79,7 (3+4),ADT,4.43,3.84,No,51.0,None,Mild,0,1,0,7
+PT1011,70-79,7 (3+4),RALP,24.37,8.98,No,29.0,None,Mild,0,1,0,7
+PT1012,50-59,7 (4+3),RALP,21.48,6.29,Yes,26.0,Mild,None,1,0,1,7
+PT1013,70-79,7 (3+4),RALP,8.46,6.67,Yes,33.0,Mild,Severe,1,2,1,7
+PT1014,60-69,6,RALP,7.82,1.88,No,33.0,None,Mild,0,1,0,6
+PT1015,50-59,9-10,ADT,7.85,6.82,No,24.0,Mild,None,1,0,0,9
+PT1016,60-69,8,Proton Radiation,10.39,0.63,Yes,59.0,None,Severe,0,2,1,8
+PT1017,60-69,7 (3+4),RALP,15.02,13.13,Yes,6.0,Mild,Mild,1,1,1,7
+PT1018,60-69,6,RALP,13.07,1.13,No,59.0,None,Severe,0,2,0,6
+PT1019,70-79,8,ADT,10.12,8.17,No,32.0,None,Mild,0,1,0,8
+PT1020,70-79,9-10,ADT,16.85,8.4,No,44.0,Mild,Mild,1,1,0,9
+PT1021,50-59,8,Photon Radiation,6.93,6.2,No,7.0,None,None,0,0,0,8
+PT1022,50-59,6,RALP,10.14,1.14,No,13.0,None,None,0,0,0,6
+PT1023,70-79,8,Photon Radiation,11.69,6.09,No,16.0,Mild,Mild,1,1,0,8
+PT1024,60-69,7 (4+3),ADT,13.58,11.87,Yes,52.0,Mild,Mild,1,1,1,7
+PT1025,50-59,8,ADT,20.49,10.14,Yes,46.0,Mild,None,1,0,1,8
+PT1026,70-79,7 (3+4),Proton Radiation,8.19,4.79,No,26.0,Mild,None,1,0,0,7
+PT1027,70-79,7 (3+4),RALP,14.8,9.49,No,15.0,None,Severe,0,2,0,7
+PT1028,70-79,7 (4+3),Photon Radiation,16.44,7.17,No,57.0,None,Severe,0,2,0,7
+PT1029,60-69,6,ADT,4.98,2.91,No,7.0,None,Mild,0,1,0,6
+PT1030,70-79,7 (3+4),ADT,16.76,9.16,Yes,22.0,None,None,0,0,1,7
+PT1031,70-79,9-10,Photon Radiation,7.58,6.19,No,27.0,Severe,None,2,0,0,9
+PT1032,70-79,7 (3+4),Proton Radiation,5.37,0.48,No,54.0,None,None,0,0,0,7
+PT1033,70-79,7 (3+4),ADT,23.93,6.91,Yes,44.0,None,Severe,0,2,1,7
+PT1034,50-59,6,RALP,24.28,20.83,Yes,34.0,None,None,0,0,1,6
+PT1035,50-59,8,ADT,20.98,16.93,No,18.0,Severe,Mild,2,1,0,8
+PT1036,70-79,7 (3+4),RALP,10.4,4.55,Yes,43.0,None,None,0,0,1,7
+PT1037,60-69,7 (4+3),Photon Radiation,6.05,3.49,No,40.0,None,Mild,0,1,0,7
+PT1038,50-59,8,RALP,18.37,5.25,Yes,50.0,None,Mild,0,1,1,8
+PT1039,70-79,9-10,Photon Radiation,13.24,2.78,No,9.0,Mild,Severe,1,2,0,9
+PT1040,50-59,6,RALP,6.56,2.91,Yes,21.0,None,None,0,0,1,6
+PT1041,50-59,9-10,Photon Radiation,14.4,5.05,No,18.0,Mild,None,1,0,0,9
+PT1042,60-69,8,RALP,4.72,2.58,No,46.0,Severe,None,2,0,0,8
+PT1043,70-79,8,Proton Radiation,23.1,2.68,No,12.0,None,Severe,0,2,0,8
+PT1044,70-79,8,RALP,9.43,8.28,No,35.0,Mild,Severe,1,2,0,8
+PT1045,60-69,9-10,RALP,17.91,15.91,No,10.0,Severe,Mild,2,1,0,9
+PT1046,60-69,8,Proton Radiation,10.55,6.79,Yes,33.0,Mild,Mild,1,1,1,8
+PT1047,70-79,9-10,ADT,14.92,7.54,No,35.0,None,Mild,0,1,0,9
+PT1048,70-79,8,ADT,15.48,4.85,No,31.0,None,None,0,0,0,8
+PT1049,60-69,7 (4+3),RALP,7.88,5.84,No,14.0,Mild,Severe,1,2,0,7
+PT1050,50-59,8,Proton Radiation,24.36,15.4,No,39.0,None,Mild,0,1,0,8
+PT1051,50-59,9-10,RALP,20.28,3.82,Yes,19.0,Mild,None,1,0,1,9
+PT1052,60-69,7 (3+4),Photon Radiation,23.73,19.56,Yes,57.0,Severe,Mild,2,1,1,7
+PT1053,50-59,8,Photon Radiation,22.79,17.07,No,25.0,Severe,None,2,0,0,8
+PT1054,60-69,7 (3+4),RALP,16.56,14.2,No,35.0,None,None,0,0,0,7
+PT1055,50-59,7 (4+3),ADT,23.36,15.58,No,59.0,None,Mild,0,1,0,7
+PT1056,50-59,6,ADT,5.86,3.35,No,22.0,Severe,None,2,0,0,6
+PT1057,70-79,7 (4+3),RALP,8.12,3.29,No,29.0,Mild,Mild,1,1,0,7
+PT1058,70-79,8,RALP,4.95,4.17,No,55.0,None,None,0,0,0,8
+PT1059,50-59,7 (3+4),Photon Radiation,10.83,8.51,Yes,40.0,Severe,None,2,0,1,7
+PT1060,50-59,7 (3+4),ADT,12.16,1.08,Yes,48.0,Mild,None,1,0,1,7
+PT1061,70-79,9-10,RALP,9.7,0.7,Yes,52.0,None,None,0,0,1,9
+PT1062,70-79,7 (3+4),Photon Radiation,21.4,7.92,Yes,22.0,None,Mild,0,1,1,7
+PT1063,70-79,9-10,ADT,11.49,8.49,Yes,30.0,None,None,0,0,1,9
+PT1064,60-69,6,Proton Radiation,9.9,8.8,Yes,35.0,None,Mild,0,1,1,6
+PT1065,50-59,8,Photon Radiation,15.4,2.74,Yes,10.0,None,Mild,0,1,1,8
+PT1066,70-79,9-10,ADT,6.96,3.86,Yes,21.0,Mild,Mild,1,1,1,9
+PT1067,50-59,6,ADT,20.85,7.79,No,6.0,None,Severe,0,2,0,6
+PT1068,60-69,7 (3+4),Photon Radiation,5.57,4.87,Yes,45.0,None,Mild,0,1,1,7
+PT1069,60-69,7 (3+4),Proton Radiation,24.72,18.93,No,26.0,None,None,0,0,0,7
+PT1070,70-79,6,Photon Radiation,20.22,15.42,No,16.0,None,None,0,0,0,6
+PT1071,60-69,7 (3+4),ADT,8.17,3.66,No,16.0,Severe,None,2,0,0,7
+PT1072,50-59,6,RALP,4.12,1.66,Yes,15.0,None,Mild,0,1,1,6
+PT1073,70-79,9-10,RALP,21.12,5.96,No,18.0,None,None,0,0,0,9
+PT1074,50-59,9-10,Photon Radiation,18.84,1.84,No,36.0,Mild,Mild,1,1,0,9
+PT1075,50-59,6,ADT,19.31,15.16,No,18.0,None,Mild,0,1,0,6
+PT1076,60-69,9-10,RALP,20.2,14.97,No,39.0,None,None,0,0,0,9
+PT1077,60-69,9-10,ADT,5.55,4.99,Yes,30.0,None,Mild,0,1,1,9
+PT1078,60-69,9-10,Photon Radiation,11.53,10.34,Yes,33.0,None,None,0,0,1,9
+PT1079,60-69,7 (4+3),RALP,6.43,3.36,No,48.0,None,None,0,0,0,7
+PT1080,60-69,8,ADT,22.13,15.57,No,29.0,None,Mild,0,1,0,8
+PT1081,70-79,7 (3+4),RALP,17.09,14.58,No,53.0,None,Mild,0,1,0,7
+PT1082,50-59,7 (4+3),Photon Radiation,10.95,8.46,No,55.0,Severe,Mild,2,1,0,7
+PT1083,50-59,9-10,ADT,5.33,1.39,Yes,14.0,None,Mild,0,1,1,9
+PT1084,50-59,6,RALP,10.53,4.56,No,22.0,None,None,0,0,0,6
+PT1085,50-59,9-10,Photon Radiation,10.83,1.73,Yes,26.0,Mild,Severe,1,2,1,9
+PT1086,60-69,8,RALP,19.32,16.63,No,36.0,None,Mild,0,1,0,8
+PT1087,50-59,9-10,RALP,17.39,9.83,No,20.0,Mild,Mild,1,1,0,9
+PT1088,70-79,6,Proton Radiation,22.63,5.53,No,16.0,None,None,0,0,0,6
+PT1089,70-79,8,Proton Radiation,13.92,8.64,Yes,29.0,Severe,Mild,2,1,1,8
+PT1090,50-59,9-10,Photon Radiation,6.51,3.75,Yes,12.0,None,None,0,0,1,9
+PT1091,50-59,8,Proton Radiation,18.98,6.73,No,22.0,None,None,0,0,0,8
+PT1092,70-79,7 (3+4),Photon Radiation,19.98,2.93,Yes,48.0,None,Severe,0,2,1,7
+PT1093,70-79,7 (3+4),Proton Radiation,15.79,9.8,No,48.0,Severe,None,2,0,0,7
+PT1094,60-69,9-10,RALP,20.19,9.94,Yes,33.0,None,Severe,0,2,1,9
+PT1095,70-79,8,Photon Radiation,14.37,10.15,No,41.0,None,Mild,0,1,0,8
+PT1096,60-69,6,Photon Radiation,14.98,7.37,No,29.0,None,None,0,0,0,6
+PT1097,60-69,9-10,RALP,12.98,10.05,Yes,59.0,Mild,Mild,1,1,1,9
+PT1098,60-69,7 (3+4),Photon Radiation,4.53,2.35,No,9.0,None,Severe,0,2,0,7
+PT1099,60-69,7 (3+4),Photon Radiation,6.27,3.3,Yes,56.0,Mild,Mild,1,1,1,7
+PT1100,60-69,9-10,Proton Radiation,4.66,3.71,Yes,42.0,None,Severe,0,2,1,9
+PT1101,50-59,8,Photon Radiation,17.36,6.82,No,15.0,None,Mild,0,1,0,8
+PT1102,70-79,7 (3+4),ADT,10.6,1.74,No,44.0,None,Mild,0,1,0,7
+PT1103,60-69,8,RALP,14.68,1.09,No,31.0,None,Severe,0,2,0,8
+PT1104,70-79,7 (3+4),Proton Radiation,23.06,15.95,Yes,54.0,None,None,0,0,1,7
+PT1105,70-79,7 (3+4),Proton Radiation,9.24,5.33,No,36.0,None,Mild,0,1,0,7
+PT1106,60-69,7 (4+3),ADT,12.62,8.18,No,35.0,Mild,None,1,0,0,7
+PT1107,50-59,7 (3+4),RALP,19.87,4.59,No,20.0,None,Severe,0,2,0,7
+PT1108,60-69,6,RALP,8.8,1.46,No,55.0,None,Severe,0,2,0,6
+PT1109,50-59,9-10,Proton Radiation,5.62,0.35,No,47.0,None,None,0,0,0,9
+PT1110,70-79,9-10,Photon Radiation,10.08,3.51,No,37.0,None,Mild,0,1,0,9
+PT1111,50-59,8,Proton Radiation,7.39,4.08,No,,None,Severe,0,2,0,8
+PT1112,50-59,7 (3+4),RALP,23.52,9.02,No,39.0,None,None,0,0,0,7
+PT1113,50-59,6,ADT,20.97,8.85,No,21.0,None,Mild,0,1,0,6
+PT1114,70-79,8,Proton Radiation,17.3,14.16,Yes,24.0,Mild,Severe,1,2,1,8
+PT1115,70-79,7 (4+3),RALP,22.3,7.72,No,47.0,Severe,None,2,0,0,7
+PT1116,50-59,8,Proton Radiation,20.88,10.17,No,33.0,None,Mild,0,1,0,8
+PT1117,50-59,8,Photon Radiation,7.92,5.67,Yes,40.0,None,None,0,0,1,8
+PT1118,60-69,7 (3+4),Proton Radiation,22.74,8.8,Yes,37.0,Mild,Severe,1,2,1,7
+PT1119,50-59,7 (4+3),Proton Radiation,15.33,8.87,No,12.0,None,Severe,0,2,0,7
+PT1120,60-69,8,RALP,20.96,16.41,No,28.0,None,Severe,0,2,0,8
+PT1121,50-59,6,RALP,22.82,19.56,No,12.0,None,Mild,0,1,0,6
+PT1122,60-69,6,RALP,10.68,1.87,Yes,34.0,Mild,Severe,1,2,1,6
+PT1123,70-79,9-10,Proton Radiation,6.31,5.29,No,26.0,Mild,Severe,1,2,0,9
+PT1124,50-59,7 (4+3),Photon Radiation,8.79,4.12,Yes,56.0,None,None,0,0,1,7
+PT1125,50-59,7 (4+3),ADT,12.97,3.5,Yes,6.0,None,Severe,0,2,1,7
+PT1126,50-59,9-10,ADT,21.18,9.32,Yes,,None,None,0,0,1,9
+PT1127,50-59,8,RALP,22.08,19.5,No,26.0,Mild,Mild,1,1,0,8
+PT1128,60-69,7 (4+3),RALP,4.15,1.95,No,34.0,None,None,0,0,0,7
+PT1129,50-59,6,Proton Radiation,14.73,4.85,No,35.0,None,None,0,0,0,6
+PT1130,70-79,6,ADT,12.77,7.51,No,15.0,Mild,None,1,0,0,6
+PT1131,70-79,7 (3+4),RALP,8.66,2.2,No,39.0,None,Mild,0,1,0,7
+PT1132,50-59,7 (4+3),Photon Radiation,6.52,0.75,No,47.0,Mild,None,1,0,0,7
+PT1133,70-79,8,Photon Radiation,11.09,1.77,No,55.0,None,Mild,0,1,0,8
+PT1134,50-59,9-10,RALP,23.8,3.78,No,22.0,None,None,0,0,0,9
+PT1135,50-59,9-10,RALP,10.79,1.93,No,43.0,None,None,0,0,0,9
+PT1136,70-79,8,ADT,14.89,2.5,No,36.0,Mild,Mild,1,1,0,8
+PT1137,50-59,7 (3+4),ADT,18.76,11.16,No,50.0,Mild,Mild,1,1,0,7
+PT1138,70-79,9-10,Proton Radiation,11.64,2.38,No,37.0,Mild,None,1,0,0,9
+PT1139,60-69,7 (4+3),ADT,24.41,8.39,No,31.0,None,Mild,0,1,0,7
+PT1140,50-59,7 (3+4),Photon Radiation,24.21,19.67,Yes,15.0,Mild,Severe,1,2,1,7
+PT1141,60-69,7 (4+3),Photon Radiation,9.29,4.21,No,47.0,None,Mild,0,1,0,7
+PT1142,70-79,6,RALP,14.44,8.92,No,45.0,None,None,0,0,0,6
+PT1143,60-69,7 (3+4),ADT,10.32,2.03,No,,Mild,None,1,0,0,7
+PT1144,60-69,9-10,Proton Radiation,9.98,2.13,No,24.0,None,Severe,0,2,0,9
+PT1145,70-79,7 (3+4),Photon Radiation,4.77,0.4,No,11.0,None,None,0,0,0,7
+PT1146,60-69,7 (3+4),Photon Radiation,16.8,3.25,Yes,23.0,None,Severe,0,2,1,7
+PT1147,60-69,7 (3+4),Proton Radiation,14.56,4.18,No,21.0,None,Mild,0,1,0,7
+PT1148,70-79,7 (3+4),Proton Radiation,5.08,1.02,No,44.0,None,Severe,0,2,0,7
+PT1149,60-69,7 (4+3),Photon Radiation,9.85,1.24,No,51.0,None,Mild,0,1,0,7
