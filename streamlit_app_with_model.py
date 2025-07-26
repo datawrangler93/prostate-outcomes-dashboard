@@ -64,3 +64,47 @@ with tab2:
                                 columns=['Gleason_Numeric', 'PSA_Baseline', 'PSA_6_Months', 'Urinary_Score', 'ED_Score'])
         prob = model.predict_proba(input_df)[0][1]
         st.success(f"Estimated probability of recurrence: {prob:.2%}")
+        
+        from fpdf import FPDF
+import io
+
+# --- Create summary DataFrame ---
+summary_df = pd.DataFrame([{
+    "Gleason Score": gleason_score,
+    "PSA Baseline": psa_baseline,
+    "PSA at 6 Months": psa_6mo,
+    "Urinary Severity": urinary_severity,
+    "ED Severity": ed_severity,
+    "Recurrence Probability": f"{recurrence_prob:.2%}"
+}])
+
+st.subheader("Summary of Prediction")
+st.dataframe(summary_df)
+
+# --- CSV Download ---
+csv = summary_df.to_csv(index=False).encode("utf-8")
+st.download_button("📄 Download Summary as CSV", data=csv, file_name="recurrence_summary.csv", mime="text/csv")
+
+# --- PDF Download ---
+pdf = FPDF()
+pdf.add_page()
+pdf.set_font("Arial", size=12)
+pdf.cell(200, 10, txt="Prostate Cancer Recurrence Prediction Summary", ln=True, align='C')
+pdf.ln(10)
+pdf.cell(200, 10, txt=f"Gleason Score: {gleason_score}", ln=True)
+pdf.cell(200, 10, txt=f"PSA Baseline: {psa_baseline}", ln=True)
+pdf.cell(200, 10, txt=f"PSA at 6 Months: {psa_6mo}", ln=True)
+pdf.cell(200, 10, txt=f"Urinary Incontinence Severity: {urinary_severity}", ln=True)
+pdf.cell(200, 10, txt=f"Erectile Dysfunction Severity: {ed_severity}", ln=True)
+pdf.cell(200, 10, txt=f"Predicted Recurrence Probability: {recurrence_prob:.2%}", ln=True)
+
+pdf_buffer = io.BytesIO()
+pdf.output(pdf_buffer)
+pdf_buffer.seek(0)
+
+st.download_button(
+    label="📄 Download Summary as PDF",
+    data=pdf_buffer,
+    file_name="recurrence_summary.pdf",
+    mime="application/pdf"
+)
