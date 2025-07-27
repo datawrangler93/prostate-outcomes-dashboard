@@ -7,7 +7,7 @@ import numpy as np
 
 # Load data
 
-df = pd.read_csv(“cleaned_prostate_treatment.csv”)
+df = pd.read_csv("cleaned_prostate_treatment.csv")
 
 # Dummy model (for demo only)
 
