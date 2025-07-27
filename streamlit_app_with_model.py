@@ -65,3 +65,4 @@ with tab2:
 
         prob = model.predict_proba(input_features)[0][1]
         st.success(f"Estimated probability of recurrence: {prob * 100:.2f}%")
+        
