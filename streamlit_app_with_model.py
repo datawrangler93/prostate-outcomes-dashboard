@@ -8,17 +8,16 @@ import numpy as np
 # Load data
 df = pd.read_csv("cleaned_prostate_treatment.csv")
 
-# Sample model setup (for demonstration, you should replace this with your trained model and features)
+# Dummy model (for demo only)
 model = LogisticRegression()
-# Dummy training for demonstration purposes only
 X_dummy = df[['Gleason_Score', 'PSA_Baseline', 'PSA_6mo', 'Urinary_Score', 'ED_Score']].fillna(0)
 y_dummy = np.random.randint(0, 2, len(X_dummy))
 model.fit(X_dummy, y_dummy)
 
-# Layout with tabs
+# Layout tabs
 tab1, tab2 = st.tabs(["📊 Dashboard", "🧠 Recurrence Predictor"])
 
-# === DASHBOARD TAB ===
+# Dashboard Tab
 with tab1:
     st.title("Dashboard")
     st.write("A visual summary of prostate cancer treatment outcomes")
@@ -43,7 +42,7 @@ with tab1:
     ax2.set_ylabel("Severity (0=None, 2=Severe)")
     st.pyplot(fig2)
 
-# === PREDICTOR TAB ===
+# Predictor Tab
 with tab2:
     st.title("🧠 Recurrence Risk Predictor")
     st.write("Input patient features to estimate recurrence probability")
@@ -55,7 +54,6 @@ with tab2:
     urinary_severity = st.selectbox("Urinary Incontinence Severity", ['None', 'Mild', 'Moderate', 'Severe'])
     ed_severity = st.selectbox("Erectile Dysfunction Severity", ['None', 'Mild', 'Moderate', 'Severe'])
 
-    # Convert severity to numerical scale
     severity_map = {'None': 0, 'Mild': 1, 'Moderate': 2, 'Severe': 3}
     urinary_score = severity_map[urinary_severity]
     ed_score = severity_map[ed_severity]
@@ -66,4 +64,4 @@ with tab2:
         ]], columns=['Gleason_Score', 'PSA_Baseline', 'PSA_6mo', 'Urinary_Score', 'ED_Score'])
 
         prob = model.predict_proba(input_features)[0][1]
-        st.success(f"Estimated probability of recurrence: {prob * 100:.2f}%")
+        st.success(f"Estimated probability of recurrence: {prob * 100:.2f}%")
